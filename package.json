@@ -1,6 +1,6 @@
 {
   "name": "@mycomm/connect",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Drop-in widget that lets your users pair their phone and connect its SIM to MyComm, through a connect session created by your server.",
   "license": "MIT",
   "type": "module",
@@ -13,14 +13,24 @@
       "import": "./dist/mycomm-connect.js"
     }
   },
-  "files": ["dist", "README.md", "LICENSE"],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "sideEffects": true,
-  "keywords": ["mycomm", "sms", "web-component", "pairing", "widget"],
+  "keywords": [
+    "mycomm",
+    "sms",
+    "web-component",
+    "pairing",
+    "widget"
+  ],
   "homepage": "https://mycomm.cogneer.tech/docs",
   "scripts": {
     "build": "node build.mjs",
     "test": "vitest run",
-    "lint": "tsc --noEmit -p jsconfig.json",
+    "lint": "tsc --noEmit -p jsconfig.json && tsc --noEmit -p test/tsconfig.json",
     "prepublishOnly": "npm run lint && npm test && npm run build"
   },
   "devDependencies": {
