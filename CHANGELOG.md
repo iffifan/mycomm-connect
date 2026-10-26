@@ -1,11 +1,17 @@
 # Changelog
 
-## [1.0.0] - Unreleased
+## [1.0.0] - 2026-10-26
 
 The first stable release, for the frozen API `1.0.0`. From here the package follows semantic versioning: `1.x` releases
 only add. Breaking against 0.1.0, and nothing from 0.1.0 is kept as an alias (0.2.0 was never released; its changes are
 here). The `ended` outcome needs the hosted page to post `mycomm.connect.ended`; until it does, an ended session shows its
 own message and no event fires.
+
+### Integrity (SRI)
+
+- `dist/mycomm-connect.js`: `sha384-Ji+SZqHBRDf7npukVMQUUVwwqdTQbMmpkDWlm7DaQ+Dm4w3vhpxTEvrwxHdd3n6+`
+- `dist/mycomm-connect.min.js`: `sha384-RnjF+Gn70M3rRVDW52U1GrcAatKnWRl8XGW1k3s5KKY8a4NIkV1+0Mo3/bFpLOjv`
+- `dist/mycomm-connect.iife.min.js`: `sha384-Y7JqAI9m3TXZQgCgvUrmxDUTKmoGTWrvfMvXYNB/C+8/9ce0+fRRV7ylmhmDAK/k`
 
 ### Added
 
