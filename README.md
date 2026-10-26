@@ -44,11 +44,11 @@ Without a bundler, load an exact version with its integrity hash (printed by the
 
 ```html
 <!-- as a module: import "@mycomm/connect" semantics, the element registers itself -->
-<script type="module" src="https://cdn.jsdelivr.net/npm/@mycomm/connect@0.2.0/dist/mycomm-connect.min.js"
+<script type="module" src="https://cdn.jsdelivr.net/npm/@mycomm/connect@1.0.0/dist/mycomm-connect.min.js"
         integrity="sha384-…" crossorigin="anonymous"></script>
 
 <!-- as a classic script: also sets window.MyCommConnect.open() -->
-<script src="https://cdn.jsdelivr.net/npm/@mycomm/connect@0.2.0/dist/mycomm-connect.iife.min.js"
+<script src="https://cdn.jsdelivr.net/npm/@mycomm/connect@1.0.0/dist/mycomm-connect.iife.min.js"
         integrity="sha384-…" crossorigin="anonymous"></script>
 ```
 

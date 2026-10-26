@@ -1,9 +1,10 @@
 # Changelog
 
-## [Unreleased]
+## [1.0.0] - Unreleased
 
-Breaking against 0.1.0 (the package stays on `0.x` until the API is frozen at `1.0.0`; nothing from 0.1.0 is kept as an
-alias). The `ended` outcome needs the hosted page to post `mycomm.connect.ended`; until it does, an ended session shows its
+The first stable release, for the frozen API `1.0.0`. From here the package follows semantic versioning: `1.x` releases
+only add. Breaking against 0.1.0, and nothing from 0.1.0 is kept as an alias (0.2.0 was never released; its changes are
+here). The `ended` outcome needs the hosted page to post `mycomm.connect.ended`; until it does, an ended session shows its
 own message and no event fires.
 
 ### Added

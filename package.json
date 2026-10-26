@@ -1,6 +1,6 @@
 {
   "name": "@mycomm/connect",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Drop-in widget that lets your users pair their phone and connect its SIM to MyComm, through a connect session created by your server.",
   "license": "MIT",
   "type": "module",

@@ -6,7 +6,7 @@
 // Every flow ends in exactly one outcome: `completed`, `ended` (the link expired, was revoked or was used elsewhere),
 // `cancelled`, `closed` (the popup was closed without an outcome) or `error` (it could not start, or timed out).
 
-const VERSION = '0.2.0';
+const VERSION = '1.0.0';
 
 /**
  * Whether the build accepts http://localhost session links. The published bundles are built without it
